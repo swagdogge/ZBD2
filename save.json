@@ -1,0 +1,47 @@
+{
+  "money": 0,
+  "wave_number": 0,
+  "village_health": 0,
+  "village_max_health": 100,
+  "village_upgrades": [],
+  "income_bonus": 0,
+  "tower_discount": 0.0,
+  "towers": [
+    {
+      "template_key": "wall",
+      "col": 3,
+      "row": 7,
+      "health": 188
+    },
+    {
+      "template_key": "wall",
+      "col": 4,
+      "row": 7,
+      "health": 164
+    },
+    {
+      "template_key": "wall",
+      "col": 5,
+      "row": 7,
+      "health": 156
+    },
+    {
+      "template_key": "wall",
+      "col": 6,
+      "row": 7,
+      "health": 156
+    },
+    {
+      "template_key": "wall",
+      "col": 7,
+      "row": 7,
+      "health": 164
+    },
+    {
+      "template_key": "machinegun",
+      "col": 6,
+      "row": 8,
+      "health": 80
+    }
+  ]
+}
