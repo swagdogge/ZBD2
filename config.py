@@ -31,8 +31,8 @@ GRID_WIDTH  = SCREEN_WIDTH - LEFT_PANEL_WIDTH - RIGHT_PANEL_WIDTH
 GRID_HEIGHT = SCREEN_HEIGHT - BOTTOM_PANEL_HEIGHT
 
 # ── Grid ────────────────────────────────────────────────────────────────────
-GRID_COLS = 10   # number of columns
-GRID_ROWS = 10   # number of rows
+GRID_COLS = 11   # number of columns
+GRID_ROWS = 15   # number of rows
 CELL_SIZE  = min(GRID_WIDTH // GRID_COLS, GRID_HEIGHT // GRID_ROWS)
 
 # ── Shop ────────────────────────────────────────────────────────────────────
@@ -69,6 +69,17 @@ WAVE_REST_TIME      = 8.0   # seconds between waves
 
 # ── Towers (template data — add more freely) ─────────────────────────────────
 TOWER_TEMPLATES = {
+    "rifle": {
+        "name":        "Rifle",
+        "description": "Cheapest shit available.",
+        "cost":        15,
+        "health":      80,
+        "max_health":  80,
+        "fire_rate":   1,    # shots per second
+        "damage":      5,
+        "range":       6,      # in grid cells
+        "color":       (100, 180, 255),
+    },
     "machinegun": {
         "name":        "Machinegun",
         "description": "Fast but weak. Good for early waves.",
@@ -77,7 +88,7 @@ TOWER_TEMPLATES = {
         "max_health":  80,
         "fire_rate":   4,    # shots per second
         "damage":      2,
-        "range":       3,      # in grid cells
+        "range":       4,      # in grid cells
         "color":       (100, 180, 255),
     },
     "sniper": {
@@ -88,7 +99,7 @@ TOWER_TEMPLATES = {
         "max_health":  80,
         "fire_rate":   0.3,    # shots per second
         "damage":      50,
-        "range":       10,      # in grid cells
+        "range":       11,      # in grid cells
         "color":       (100, 180, 255),
     },
     "cannon": {

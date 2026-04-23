@@ -115,6 +115,7 @@ class Projectile:
 # Maps tower name → projectile style.  Add entries here for new tower types.
 # The key must match the "name" field in TOWER_TEMPLATES in config.py.
 _TOWER_PROJ_STYLE: dict[str, str] = {
+    "Rifle":      "arrow",
     "Machinegun": "arrow",
     "Sniper":     "arrow",
     "Cannon":     "cannonball",
